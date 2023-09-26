@@ -40,3 +40,9 @@ https://clerk.com/docs
 
 ## Databse Prisma:
 https://app.planetscale.com/kevin-andre-renner/tunnelvision
+
+## Shadcn/ui Documentation:
+https://ui.shadcn.com/docs
+
+## Cloudinary, Programmable media:
+https://console.cloudinary.com/console/c-19f021b2053cfb68d21b462ce416b8/getting-started
