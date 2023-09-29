@@ -90,12 +90,14 @@ export const SizeForm: React.FC<SizeFormProps> = ({ initialData }) => {
 
   return (
     <>
+      {/* Delete Alert */}
       <AlertModal
         isOpen={open}
         onClose={() => setOpen(false)}
         onConfirm={onDelete}
         loading={loading}
       />
+      {/* Form Heading */}
       <div className="flex items-center justify-between">
         <Heading title={title} description={description} />
         {initialData && (
@@ -116,6 +118,7 @@ export const SizeForm: React.FC<SizeFormProps> = ({ initialData }) => {
           className="space-y-8 w-full"
         >
           <div className="grid grid-cols-3 gap-8">
+            {/* Name Formfield */}
             <FormField
               control={form.control}
               name="name"
@@ -133,6 +136,7 @@ export const SizeForm: React.FC<SizeFormProps> = ({ initialData }) => {
                 </FormItem>
               )}
             />
+            {/* Value Formfield */}
             <FormField
               control={form.control}
               name="value"
@@ -151,12 +155,12 @@ export const SizeForm: React.FC<SizeFormProps> = ({ initialData }) => {
               )}
             />
           </div>
+          {/* Submit Button */}
           <Button disabled={loading} className="ml-auto" type="submit">
             {action}
           </Button>
         </form>
       </Form>
-      <Separator />
     </>
   );
 };

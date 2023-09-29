@@ -158,7 +158,6 @@ export const BillbordForm: React.FC<BillbordFormProps> = ({ initialData }) => {
           </Button>
         </form>
       </Form>
-      <Separator />
     </>
   );
 };

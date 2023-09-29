@@ -162,7 +162,6 @@ export const ColorForm: React.FC<ColoeFormProps> = ({ initialData }) => {
           </Button>
         </form>
       </Form>
-      <Separator />
     </>
   );
 };
